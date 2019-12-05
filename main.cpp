@@ -19,3 +19,16 @@ int main()
     
     return 0;
 }
+
+#ifndef _STUDENT_H_
+#define _STUDENT_H_
+class student.h
+{
+        private:
+                string first;
+                string last;
+
+        public:
+                void person.setName(first, last)
+}
+#endif
