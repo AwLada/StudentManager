@@ -12,7 +12,9 @@ void student::setName(string firstName,string lastName)
 string student::fullName()
 {
         string full;
+        string space = " ";
         full.append(first);
+        full.append(space);
         full.append(last);
         return full;
 }
