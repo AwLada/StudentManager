@@ -11,6 +11,6 @@ void student::setName(string firstName,string lastName)
 
 string student::fullName()
 {
-       string fullName = first + last;
        cout << first << " ";
+       
 }
