@@ -12,23 +12,11 @@ int main()
     student person;
     
     cout<<"What is the student's name? ";
-    cin>>firstName>>lastName;
-    
+   
+    cout << lastName << " " << firstName << endl;
     person.setName(firstName,lastName);
-    cout<<"Saved "<<person.fullName()<<endl;
+    cout<<"Saved " << person.fullName() << endl;
     
     return 0;
 }
 
-#ifndef _STUDENT_H_
-#define _STUDENT_H_
-class student.h
-{
-        private:
-                string first;
-                string last;
-
-        public:
-                void person.setName(first, last)
-}
-#endif
